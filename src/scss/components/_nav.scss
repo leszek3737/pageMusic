@@ -1,0 +1,19 @@
+.navBar {
+    &__item {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        width: 10.7rem;
+        align-self: center;
+    }
+}
+
+
+@media screen and (min-width: 425px) {
+    .navBar {
+        &__item {
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            width: 10.7rem;
+        }
+    }
+}
