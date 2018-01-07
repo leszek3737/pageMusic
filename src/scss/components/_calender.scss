@@ -1,0 +1,24 @@
+.fc-left {
+    & > h2 {
+        font-size: 2rem;
+    }
+}
+
+.fc-day-grid-event {
+    position: absolute;
+    width: 18%;
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.fc-event-container {
+    &:nth-child(4) > .fc-day-grid-event {
+        background: $purple;
+    }
+    &:nth-child(5) > .fc-day-grid-event {
+        background: $red;
+    }
+}

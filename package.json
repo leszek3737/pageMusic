@@ -27,6 +27,7 @@
     "cssnano": "^3.10.0",
     "eslint-html-reporter": "^0.5.2",
     "eslint-plugin-css-modules": "^2.7.5",
+    "fullcalendar": "^3.8.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.0",
     "gulp-clean": "^0.3.2",
@@ -49,5 +50,8 @@
     "jquery": "^3.2.1",
     "popper.js": "^1.12.9",
     "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "moment": "^2.20.1"
   }
 }
