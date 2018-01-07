@@ -5,6 +5,11 @@
         width: 10.7rem;
         align-self: center;
     }
+    &__logo {
+        & > img {
+            height: 4rem;
+        }
+    }
 }
 
 
