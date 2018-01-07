@@ -17,6 +17,7 @@ $(document).ready(function () {
             googleCalendarId: "lubcon.org_qi5qeu5bm83puvc9kfj9mfle74@group.calendar.google.com",
         },
         header: 0,
+        height: 450,
 
     });
 });
