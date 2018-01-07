@@ -1,5 +1,5 @@
 "use strict";
-$(document).ready(function () {
+$(document).ready(() => {
     $(".calendar__month").fullCalendar({
         weekends: false,
         googleCalendarApiKey: "AIzaSyCbmM8xX6md1IjtFGGXTgDjSA9iNI34_-k",
@@ -20,4 +20,12 @@ $(document).ready(function () {
         height: 450,
 
     });
+
 });
+$(document).on("click", "a[href^='#']",
+    function (event) {
+        event.preventDefault();
+        $("html, body").animate({
+            scrollTop: $($.attr(this, "href")).offset().top
+        }, 800);
+    });

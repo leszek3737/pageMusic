@@ -12,31 +12,31 @@
 
 <body>
     <nav class="navBar navbar navbar-expand-md navbar-light bg-danger fixed-top">
-        <a class="navbar-brand" href="#">Poranki muzyczne</a>
+        <a class="navbar-brand" href="#home">Poranki muzyczne</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navBar__ collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="navBar__item nav-item">
-                    <a class="nav-link btn btn-outline-primary" href="#">Home</a>
+                    <a class="nav-link btn btn-outline-primary" href="#home">Home</a>
                 </li>
                 <li class="navBar__item nav-item">
-                    <a class="nav-link btn btn-outline-primary" href="#">Koncerty</a>
+                    <a class="nav-link btn btn-outline-primary" href="#koncerty">Koncerty</a>
                 </li>
                 <li class="navBar__item nav-item ">
-                    <a class="nav-link btn btn-outline-primary" href="#">Kalędarz</a>
+                    <a class="nav-link btn btn-outline-primary" href="#kalendarz">Kalendarz</a>
                 </li>
                 <li class="navBar__item nav-item">
-                    <a class="nav-link btn btn-outline-primary" href="#">Miejsce</a>
+                    <a class="nav-link btn btn-outline-primary" href="#map">Miejsce</a>
                 </li>
                 <li class="navBar__item nav-item">
-                    <a class="nav-link btn btn-outline-primary" href="#">Pianista</a>
+                    <a class="nav-link btn btn-outline-primary" href="#artist">Pianista</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="header align-items-center d-flex bg-dark">
+    <div class="header align-items-center d-flex bg-dark" id="home">
         <div class="container h-100">
             <div class="pt-5">
                 <h2 class="font-weight-light text-white">
@@ -48,7 +48,7 @@
             </div>
         </div>
     </div>
-    <div class="containerFluid bg-danger">
+    <div class="containerFluid bg-danger" id="koncerty">
         <div class="container text-white">
             <h4 class="about__title">
                 Konerty
@@ -61,7 +61,7 @@
             </div>
         </div>
     </div>
-    <div class="containerFluid bg-light">
+    <div class="containerFluid bg-light" id="kalendarz">
         <div class="calendar container">
             <h4 class="calendar__title">
                 Konerty
@@ -76,10 +76,10 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid maps p-0 m-0">
+    <div class="container-fluid maps p-0 m-0" id="map">
         <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1249.2361223668147!2d22.58897565834921!3d51.228797094897594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472257023f988519%3A0x3baada60bef41172!2sKosmonaut%C3%B3w+78%2C+20-358+Lublin!5e0!3m2!1spl!2spl!4v1515261217933" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
-    <div class="containerFluid bg-light pb-4">
+    <div class="containerFluid bg-light pb-4" id="artist">
         <div class="container artist">
             <h4>Maciej Dąbrowski</h4>
             <img class="artist__img" src="https://lublin.eu/gfx/lublin/_thumbs/userfiles/_public/kultura/osoby/import/p15110917.08-1,klqUwl6eZlOE6tCTiHtf.jpg" alt="">
@@ -88,7 +88,7 @@
     </div>
     <footer class="container-fluid bg-dark text-center d-flex flex-column">
         <p class="text-white"> <i class="far fa-copyright"></i> 2018 Stowarzysznie.<br> Realizacjia <a class="badge badge-light" href="http://rogala.it/">Rogala.IT</a> </p>
-        <a href="#">
+        <a href="#home">
             <h4 class="fas fa-angle-up"></h4>
         </a>
     </footer>
