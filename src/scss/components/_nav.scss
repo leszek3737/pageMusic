@@ -1,8 +1,10 @@
 .navBar {
+    padding-left: 0;
+    padding-right: 0;
     &__item {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
-        width: 10rem;
+        width: 9rem;
         align-self: center;
     }
     &__logo {
@@ -12,12 +14,18 @@
     }
 }
 
-
 @media screen and (min-width: 768px) {
     .navBar {
         &__item {
-            padding-left: 0.5rem;
-            padding-right: 0.5rem;
+            padding-left: 0.3rem;
+            padding-right: 0.3rem;
         }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navBar {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }

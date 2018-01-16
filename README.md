@@ -1,10 +1,37 @@
 # pageMusic
 ### [Demo](http://rogala.it/pagemusic/)
-Time realization: 9:10h (4h fix problem with the google apps).
+Time realization: 10:20h.
 
-[Screen-full](min-full.png)
+| Change | time | total time |
+| :---: | :-: | :-: |
+| Add color, baner and logo provided by the customer | 1:10h | 10:20h |
+| Fix problem with the google apps | 4:00h | 9:10h |
+| Install, configure and stylization fullcalendar | 1:40h | 5:10h |
+| Initial design and stylization  | 3:30h | 3:30h |
 
-[Screen-tablet](min-mid.png)
 
-[Screen-mobile](min-mini.png)
+
+## How to build 
+[Install gulp](https://github.com/leszek3737/Gulp-Config-Files)
+and install:
+```
+npm install
+```
+Build application in developer mode
+
+```
+gulp build
+```
+Build application in production mode
+
+```
+gulp build::prod
+```
+
+
+## Screen
+| Screen-full | Screen-tablet | Screen-mobile |
+| :---: | :-: | :-: |
+| <img src="./min-full.png" height="900"> | <img src="./min-mid.png" height="900"> | <img src="./min-mini.png" height="900"> |
+
 
