@@ -8,6 +8,7 @@ Time realization: 10:20h.
 | Install, configure and stylization fullcalendar | 1:40h | 5:10h |
 | Fix problem with the google apps | 4:00h | 9:10h |
 | Add color, baner and logo provided by the customer | 1:10h | 10:20h |
+| Change logo provided by the customer | 10 min | 10:30h |
 
 
 

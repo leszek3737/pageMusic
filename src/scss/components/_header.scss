@@ -9,26 +9,11 @@
     &--text {
         @extend %text-header;
     }
-    &--herb {
-        margin-left: auto;
-        height: 90px;
-        width: 75px;
-        background: url(./../img/lublin.png);
-    }
     &--logo {
-        height: 80px;
-        width: 190px;
-        background: url(./../img/lublin.png) -75px 0;
-    }
-    &__logos {
         margin-left: auto;
         margin-top: auto;
         flex-direction: column;
         display: flex;
-        &--text {
-            @extend %text-header;
-            font-size: 1.6rem;
-        }
     }
     &--container {
         flex-direction: column;
