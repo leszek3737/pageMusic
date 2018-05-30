@@ -1,7 +1,7 @@
 .header {
     padding-top: (3.7rem +($navbar-padding-y * 2));
     height: 500px;
-    background-image: url(../img/tlo_baner.png);
+    background-image: url(../img/tlo_baner.jpg);
     background-position: right;
     &--title {
         @extend %text-header;

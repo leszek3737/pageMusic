@@ -1,4 +1,5 @@
 //wczytanie ustawień 
+@import "base";
 @import "settings";
 @import "mixin.scss";
 //wczytanie Bootstrapa
@@ -37,7 +38,6 @@
 @import "../../node_modules/bootstrap/scss/popover";
 @import "../../node_modules/bootstrap/scss/carousel";
 @import "../../node_modules/bootstrap/scss/utilities";
-
 @import "../../node_modules/fullcalendar/dist/fullcalendar.min";
 //wczytywanie ustawiń elementów strony
 @import "components/header";
@@ -49,4 +49,3 @@
 @import "components/calender";
 @import "components/container";
 //@import "layout/news";
-@import "base";
