@@ -52,6 +52,7 @@
     "run-sequence": "^2.2.1"
   },
   "dependencies": {
-    "moment": "^2.20.1"
+    "moment": "^2.20.1",
+    "natives": "^1.1.6"
   }
 }
